@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link rel="icon" type="image/x-icon" href="A.png" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+          <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+          <link rel="stylesheet" href="index.css" />
+
+          <title>My Prtfolio</title>
+     </head>
+     <body class="">
+          <div class="container">
+               <input type="checkbox" name="toggle" id="toggle" />
+               <label class="toggle" for="toggle">
+                    <i class="bi bi-list"></i>
+               </label>
+               <div class="sidebar">
+                    <label class="toggle" for="toggle">
+                         <i class="bi bi-x-lg"></i>
+                    </label>
+
+                    <ul class="menu">
+                         <input type="radio" name="menu" id="about" checked value="about" />
+                         <label for="about">About Me</label>
+                         <input type="radio" name="menu" id="projects" value="projects" />
+                         <label for="projects">Projects</label>
+                         <input type="radio" name="menu" id="reach" value="reach" />
+                         <label for="reach">Reach Me!</label>
+                         <input type="radio" name="menu" id="themes" value="themes" />
+                         <label for="themes">Theme</label>
+                         <span class="chevron"></span>
+                    </ul>
+               </div>
+               <div class="isi">
+                    <div class="section about show">
+                         <h1>Hi, Adryan's here!</h1>
+                         <p>I am Muhammad Adryan Syahputra, a student of Information Systems.</p>
+                         <p>I am a fan of applications that have simple but elegant designs. That's why I have an idea to keep learning how to bring elegance to every project I work on.</p>
+                         <p>
+                              I started building apps when I started studying Information Systems. I was initially drawn to the front end aspect of applications. My early projects were just class assignments, but I started learning how to
+                              incorporate elegant designs into my projects, which you can see <a href="#projects">list of my projects here</a>.
+                         </p>
+                         <p>Aside from coding, I am a huge fan of football and listening music. These bring me joy and excitement.</p>
+                         <p>If you're interested in my work, you can follow me on my social media <a href="#reach">here</a>.</p>
+                    </div>
+                    <div class="section projects">
+                         <h1>Projects</h1>
+                         <div class="wrapper">
+                              <div class="card">
+                                   <img src="asset/sipbetul.png" alt="" />
+                                   <h2>SIPBetul</h2>
+                                   <p>A system created for the purpose of statistical news by the Jambi Central Bureau of Statistics.</p>
+                                   <div class="tags"><span class="badge">Codeigniter</span> <span class="badge">Bootstrap</span></div>
+                              </div>
+                              <div class="card">
+                                   <img src="asset/siphp.png" alt="" />
+                                   <h2>SiPHP</h2>
+                                   <p>A system for managing the daily activities of employees at the Jambi Provincial Central Bureau of Statistics.</p>
+                                   <div class="tags"><span class="badge">Codeigniter</span> <span class="badge">Bootstrap</span></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="section reach">
+                         <h1>Reach Me!</h1>
+                         <div class="socials">
+                              <div class="social">
+                                   <i class="bi bi-envelope"></i>
+                                   <a target="_blank" href="https://mail.google.com/mail">adryansyah434@gmail.com</a>
+                              </div>
+                              <div class="social">
+                                   <i class="bi bi-instagram"></i>
+                                   <a target="_blank" href="https://www.instagram.com/_adryans/">_adryans</a>
+                              </div>
+                              <div class="social">
+                                   <i class="bi bi-github"></i>
+                                   <a target="_blank" href="https://github.com/Adryanssyah">Adryanssyah</a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="section themes">
+                         <h1>Themes</h1>
+                         <div class="choose">
+                              <input type="radio" name="theme" id="light" value="light" />
+                              <label class="theme light" for="light">Light</label>
+                              <input type="radio" name="theme" id="dark" value="dark" />
+                              <label class="theme dark" for="dark">Dark</label>
+                              <input type="radio" name="theme" id="blue" value="blue" />
+                              <label class="theme blue" for="blue">Blue</label>
+                              <input type="radio" name="theme" id="cheesecake" value="cheesecake" />
+                              <label class="theme cheesecake" for="cheesecake">Cheesecake</label>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <footer>2023-PRESENT © Adryansyah</footer>
+
+          <script src="app.js"></script>
+     </body>
+</html>
